@@ -1,27 +1,43 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [154] using StatReload
-INFO:     Started server process [156]
+INFO:     Started reloader process [203] using StatReload
+INFO:     Started server process [205]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:45822 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45816 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:45834 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:45816 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45816 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45834 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45834 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:51884 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:51870 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51870 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51884 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51884 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51904 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51910 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51910 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51910 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51924 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51924 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51910 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51924 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51924 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:58188 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33642 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33642 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33642 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33642 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58188 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49102 - "OPTIONS /api/workout-plans HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49102 - "POST /api/workout-plans HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:49102 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49102 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49102 - "OPTIONS /api/meal-plans HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43312 - "POST /api/meal-plans HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:43312 - "GET /api/workout-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43312 - "GET /api/meal-plans?trainer_id=691b09c281b93fb45086d1fc&client_id=691b09c381b93fb45086d1fd&active=true HTTP/1.1" 200 OK
