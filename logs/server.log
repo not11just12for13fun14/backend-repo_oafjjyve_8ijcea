@@ -1,0 +1,27 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [154] using StatReload
+INFO:     Started server process [156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:45822 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45816 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45816 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:45834 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:45816 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45816 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45834 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45834 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51884 - "GET /api/connect?trainer_id=691b09c281b93fb45086d1fc&client_email=client%40example.com HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51870 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51870 - "GET /api/messages?conversation_id=691b09c281b93fb45086d1fc_691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51884 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51884 - "GET /api/logs?client_id=691b09c381b93fb45086d1fd HTTP/1.1" 200 OK
